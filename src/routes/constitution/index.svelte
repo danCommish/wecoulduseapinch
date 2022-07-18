@@ -484,37 +484,142 @@
     </li>
 </ol>
 
-    <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
-    
-    <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
-    <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
+    <h2 class="sectionHeading" bind:this={five}>Article V: Regular Season</h2>
+    <ol type="A">
+    <li>
+        <p>The season schedule will be based on an NHL model. i.e. you will play every person in the league once, totaling 9 weeks. The remaining 4 weeks will be in-division battles.</p>
+    </li>
+    <li>
+        <p>Each Week, Teams will play an extra game against the&nbsp;<a href="https://support.sleeper.app/en/articles/3971690-extra-game-each-week-against-league-median">median</a></p>
+        <ol>
+            <li>
+                <p>This option allows the top scoring teams of the week to gain an additional win, while the other half gets hit with a loss.&nbsp;</p>
+            </li>
+            <li>
+                <p>There will always be an even split, where exactly half of the teams earn a win and the other half gets a loss.</p>
+            </li>
+            <li>
+                <p>The purpose is to help create a fairer option for those times where you finish in the top half of scoring, but you still lost to someone who scored more than you. You would at least go 1-1 for the week instead of 0-1.</p>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>All franchises are responsible to make sure their lineups are updated before kickoff of the first game of the week. No exceptions will be made.</p>
+        <ol>
+            <li>
+                <p>If a franchise submits a final lineup with an inactive player, they will add $5 to the fund to be given to the player with the highest overall score at the end of the year.</p>
+                <ol>
+                    <li>
+                        <p>The franchise does not have to pay the fine if the player has not been ruled inactive by the time the previous games have started.</p>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <p>If a franchise submits a final lineup with an inactive player three (3) times during the regular season, his/her membership in the league will be up for vote immediately following the season.</p>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>The regular season will end after the completion of week 14</p>
+    </li>
+    <li>
+        <p>Tiebreakers - Higher Bench points&gt;Highest Individual starter score&gt;Most total starter Offensive+Special Teams TD&rsquo;s&nbsp;</p>
+    </li>
+    <li><br>
+        <ul>
+            <li>
+                <p><br></p>
+            </li>
+        </ul>
+    </li>
+</ol>
 
-    <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
-    
-    <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
-    <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally grounds for removal.</p>
-    
-    <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
-    <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
-    
-    <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
-    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
+    <h2 class="sectionHeading" bind:this={six}>Article VI: Playoffs</h2>
+    <ol type="A">
+    <li><br>
+        <ul>
+            <li>
+                <p>The league will implement a six team Championship playoff system.&nbsp;</p>
+            </li>
+            <li>
+                <p>The top two teams from each division will automatically make the playoffs.</p>
+            </li>
+            <li>
+                <p>The division leaders will both get a bye week in the first round of the playoffs</p>
+            </li>
+        </ul>
+        <ol>
+            <li>
+                <p>The fifth and sixth teams will be determined first by win/loss record, and then total points will be used as a tiebreaker if necessary.</p>
+            </li>
+        </ol>
+        <ul>
+            <li>
+                <p>Playoff tiebreakers will be decided as follows - In leagues with divisions, the winners of each division automatically make the playoffs. In 6 team playoff leagues, the bye week goes to the 2 division winners with the best record, based on Overall Record &gt; Points For &gt; Points Against.</p>
+            </li>
+            <li>
+                <p>Any remaining playoff slots are filled by teams that did not win the division, and seeding is sorted by Overall Record &gt; Points For &gt; Points Against.</p>
+            </li>
+        </ul>
+        <ol>
+            <li>
+                <p>The playoffs start on week 15 of the NFL regular season and last 3 weeks.&nbsp;</p>
+            </li>
+            <li>
+                <p>The final will take place on Week 17 of the NFL regular season.</p>
+            </li>
+        </ol>
+        <ul></ul>
+    </li>
+</ol>
 
-    <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
-    
-    <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at {dues}$. Dues are collected through <a href="https://www.leaguesafe.com/league/3949641">LeagueSafe</a> and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
-    
-    <h3 bind:this={sevenTwo}>7.2 Payout</h3>
-    <p>League payout is structured as follows:</p>
-    <ul>
-        <li>1st place: {dues * 8}$</li>
-        <li>2nd place: {dues * 3}$</li>
-        <li>3rd place: {dues}$</li>
-    </ul>
-    <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
-    
-    <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
-    <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
+    <h2 class="sectionHeading" bind:this={seven}>Article VII: Trades</h2>
+    <ol type="A">
+    <li>
+        <p>Player trades during the season are allowed.</p>
+        <ol>
+            <li>
+                <p>Trades do not have to be for an even number of players.</p>
+            </li>
+            <li>
+                <p>Trades do not have to be for the same position.</p>
+            </li>
+            <li>
+                <p>Draft Pick trades are allowed.</p>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>The trade deadline will be week 11</p>
+    </li>
+    <li>
+        <p>Trades must be made with the end goal of&nbsp;helping your team&nbsp;during the season.</p>
+    </li>
+    <li>
+        <p>Accepted trades must be submitted via Sleeper website Any trade proposed by a league member is subject and open to a public counter offer from other league members via league chat.</p>
+        <ol>
+            <li>
+                <p>Ex: Chris offers Christine Michael and Aaron Rodgers for Sam&rsquo;s 1st round pick next year and Julio Jones. Andrew offers Sam Tom Brady and Odell Beckham Jr. instead, which Sam takes over the original deal.</p>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>You cannot take back an agreed-upon trade. If you make a bad trade, you are an idiot and will be ridiculed.</p>
+    </li>
+    <li><br>
+        <ol>
+            <li>
+                <p><br></p>
+            </li>
+        </ol>
+    </li>
+</ol>
+
+<h2 class="sectionHeading" bind:this={seven}>Article VIII: Waivers</h2>
+<ol type="A">
+    <li>
+        <p>Waivers will be determined by Free Agency Acquisition Budget. Each team will be allotted $150 in budget to use throughout the season. Free agents are awarded to the highest bidder. In the case of a tie, the winner is normally the player with the worse record and/or lowest point total.</p>
+    </li>
+</ol>
 
 </div>
